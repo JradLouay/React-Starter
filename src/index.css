@@ -1,8 +1,3 @@
-@import './fonts/Overpass-Light.ttf';
-@import './fonts/Overpass-Black.ttf';
-@import './fonts/Overpass-SemiBold.ttf';
-@import './fonts/Overpass-Bold.ttf';
-@import './fonts/Overpass-Regular.ttf';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
