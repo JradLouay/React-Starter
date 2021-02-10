@@ -4,7 +4,10 @@ import {
     USER_LOGGED_OUT
   } from "../actions/UserActions";
   
-  const initialState = {};
+  const initialState = {
+    name: 'louay',
+    pwd: 'louay2008'
+  };
   
   const userReducer = function(state = initialState, action) {
     switch (action.type) {
