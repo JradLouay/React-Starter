@@ -3,10 +3,10 @@ import React from 'react'
 
 const Header1 = () =>  (
 <div class="relative bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6">
-    <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
+  <div class="mx-auto px-4 sm:px-6 bg-blue-50">
+    <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10 bg-red-50">
       <div class="flex justify-start lg:w-0 lg:flex-1">
-        <a href="#">
+        <a>
           <span class="sr-only">Workflow</span>
           <img src={`https://s3.invisionapp-cdn.com/storage.invisionapp.com/screens/files/439063566.png?x-amz-meta-iv=1&response-cache-control=max-age%3D2419200&x-amz-meta-ck=4caf2222dfb8e8b08b05c17b28dabaf2&AWSAccessKeyId=AKIAJFUMDU3L6GTLUDYA&Expires=1614556800&Signature=WHxXtkZBZuHW71kXM9sosD0H530%3D`} class="h-8 w-auto sm:h-10" alt="logo" />
         </a>
@@ -29,7 +29,7 @@ const Header1 = () =>  (
         </a> */}
 
       </nav>
-      <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0 bg-blue-50">
+      <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0 ">
         <a href="#" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
           Sign in
         </a>

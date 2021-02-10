@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import AppContext from "../../appContext";
 import  {AppSuspense}  from "../../../components";
 import Header1 from "../../../components/headers/header";
+import Footer from "../../../components/footers/footer";
 
  const Layout1 = () => {
     const { routes } = useContext(AppContext);
@@ -12,6 +13,7 @@ import Header1 from "../../../components/headers/header";
         {/* <div style={{height: 100, backgroundColor: 'red'}} /> */}
         <Header1/>
       <AppSuspense>{renderRoutes(routes)}</AppSuspense>
+      <Footer />
     </React.Fragment>
   );
 };
