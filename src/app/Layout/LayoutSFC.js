@@ -10,7 +10,7 @@ import { AppSuspense } from "../../components";
 
 export const LayoutSFC = (props) => {
   // const [Layout, setLayout] = useState(AppLayouts['layout1']);
-  const Layout = React.lazy(() => import("./Layout1/Layout1"));
+  const Layout = React.lazy(() => import("./LandingPage/LandingPage"));
   return (
     <AppSuspense>
       <Layout {...props} />
