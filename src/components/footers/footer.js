@@ -6,14 +6,14 @@ const Footer = () => {
         <footer class="bg-gray-200 pt-10 sm:mt-10 pt-10">
     <div class="max-w-6xl m-auto flex flex-wrap justify-left text-black">
         {/* <!-- Col-1 --> */}
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12 ">
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12  bg-red-50">
             <div class="text-xs uppercase font-medium mb-6">
                Logo
             </div>
         </div>
 
         {/* <!-- Col-2 --> */}
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12 ">
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12  bg-yellow-50">
             {/* <!-- Col Title --> */}
             <div class="text-xs uppercase font-medium mb-6">
                 À propos
@@ -44,7 +44,7 @@ const Footer = () => {
         </div>
 
         {/* <!-- Col-3 --> */}
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12  bg-green-50">
             {/* <!-- Col Title --> */}
             <div class="text-xs uppercase font-medium mb-6">
                  Hébergeurs
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
 
         {/* <!-- Col-3 --> */}
-        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+        <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12  bg-purple-50">
             {/* <!-- Col Title --> */}
             <div class="text-xs uppercase font-medium mb-6">
                 Assistance
@@ -99,7 +99,7 @@ const Footer = () => {
 
     {/* <!-- Copyright Bar --> */}
     <div class="pt-2">
-        <div class="flex pb-5 px-3 m-auto pt-5 
+        <div class="flex pb-5 px-6 m-auto pt-5 
             bg-white text-sm 
             flex-col md:flex-row">
             <div class="mt-2">
