@@ -1,6 +1,7 @@
 import thunk from "redux-thunk";
 import { createStore, applyMiddleware, compose } from "redux";
 import RootReducer from "./reducers/RootReducer";
+import { composeWithDevTools } from "redux-devtools-extension";
 
 const initialState = {};
 const middlewares = [thunk];
@@ -17,5 +18,6 @@ if (
 export const Store = createStore(
   RootReducer,
   initialState,
-  compose(applyMiddleware(...middlewares), devtools)
-); 
+  // devtools(applyMiddleware(...middlewares))
+  applyMiddleware(...middlewares)
+);
